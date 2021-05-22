@@ -23,7 +23,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        app:subtitle="find yiur best "
+        app:subtitle="find your best craft"
         app:subtitleTextAppearance="@style/TextView.PoppinsNormal14sp8D92A3"
         app:title="Sign In"
         app:titleTextAppearance="@style/TextView.PoppinsNormal22sp020202" />

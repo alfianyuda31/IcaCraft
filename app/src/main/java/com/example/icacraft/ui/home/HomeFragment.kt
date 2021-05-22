@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
@@ -36,6 +37,13 @@ class HomeFragment : Fragment(), HomeAdapter.ItemAdapterCallback{
     var layoutManager: RecyclerView.LayoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
     rclist.layoutManager = layoutManager
     rclist.adapter = adapter
+
+    val sectionPagerAdapter = SectionPagerAdapter(
+        childFragmentManager
+    )
+    viewPager.adapter = sectionPagerAdapter
+    tabLayout.setupWithViewPager(viewPager)
+
   }
 
   fun initDataDummy() {
@@ -46,6 +54,6 @@ class HomeFragment : Fragment(), HomeAdapter.ItemAdapterCallback{
   }
 
   override fun onClick(v: View, data: HomeModel) {
-    TODO("Not yet implemented")
+    Toast.makeText(context, "test click "+data.title, Toast.LENGTH_SHORT).show()
   }
 }
