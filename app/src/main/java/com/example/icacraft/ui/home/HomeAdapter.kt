@@ -40,7 +40,7 @@ class HomeAdapter (
 //                    .load(data.src)
 //                    .into(ivPoster)
 
-                setOnClickListener { itemAdapterCallbak.onClick(it, data) }
+                itemView.setOnClickListener { itemAdapterCallbak.onClick(it, data) }
             }
         }
     }

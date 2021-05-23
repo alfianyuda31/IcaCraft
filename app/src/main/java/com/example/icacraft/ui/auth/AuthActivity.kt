@@ -29,7 +29,7 @@ class AuthActivity : AppCompatActivity() {
 
     fun toolbarSignUp(){
         toolbar.title = "Sign Up"
-        toolbar.subtitle = "Register your account"
+        toolbar.subtitle = "Register your profile"
         toolbar.navigationIcon = resources.getDrawable(R.drawable.arrow_back_ios_24px_outlined, null)
         toolbar.setOnClickListener { onBackPressed() }
     }
