@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.icacraft" >
+    package="com.example.icacraft">
 
     <application
         android:allowBackup="true"
@@ -8,12 +8,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_icacraft"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme.noActionBar" >
-
-        <activity android:name=".ui.MainActivity"></activity>
-
+        android:theme="@style/AppTheme.noActionBar">
+        <activity android:name=".ui.detail.DetailActivity"></activity>
+        <activity android:name=".ui.MainActivity" />
         <activity android:name=".ui.auth.AuthActivity" />
-        <activity android:name=".ui.splashscreen.SplashScreenActivity" >
+        <activity android:name=".ui.splashscreen.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,5 +1,6 @@
 package com.example.icacraft.ui.home
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -13,6 +14,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.icacraft.R
 import com.example.icacraft.model.dummy.HomeModel
+import com.example.icacraft.ui.detail.DetailActivity
 import kotlinx.android.synthetic.main.fragment_home.*
 import java.util.ArrayList
 
@@ -54,6 +56,7 @@ class HomeFragment : Fragment(), HomeAdapter.ItemAdapterCallback{
   }
 
   override fun onClick(v: View, data: HomeModel) {
-    Toast.makeText(context, "test click "+data.title, Toast.LENGTH_SHORT).show()
+    val detail = Intent(activity, DetailActivity::class.java)
+    startActivity(detail)
   }
 }

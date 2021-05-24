@@ -1,5 +1,6 @@
 package com.example.icacraft.ui.home.newarrival
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -11,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.icacraft.R
 import com.example.icacraft.model.dummy.HomeModel
 import com.example.icacraft.model.dummy.HomeVerticalModel
+import com.example.icacraft.ui.detail.DetailActivity
 import com.example.icacraft.ui.home.HomeAdapter
 import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.fragment_home.rclist
@@ -47,7 +49,9 @@ class HomeNewArrivalFragment : Fragment(), HomeNewArrivalAdapter.ItemAdapterCall
     }
 
     override fun onClick(v: View, data: HomeVerticalModel) {
-        Toast.makeText(context, "Test Click "+data.title, Toast.LENGTH_SHORT).show()
+
+        val detail = Intent(activity, DetailActivity::class.java)
+        startActivity(detail)
     }
 
 }
