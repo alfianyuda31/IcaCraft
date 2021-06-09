@@ -29,7 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/TextView.PoppinsNormal16sp020202"
-            android:text="Full Name" />
+            android:text="Nama Lengkap" />
 
         <EditText
             style="@style/EditText.PoppinsNormal14sp020202"
@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/rectangle_6"
             android:layout_marginTop="6dp"
-            android:hint="Type your full name"
+            android:hint="Masukkan nama lengkap anda"
             android:padding="10dp" />
 
         <TextView
@@ -45,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/TextView.PoppinsNormal16sp020202"
-            android:text="Email Address" />
+            android:text="Alamat Email" />
 
         <EditText
             style="@style/EditText.PoppinsNormal14sp020202"
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/rectangle_6"
             android:layout_marginTop="6dp"
-            android:hint="Type your email address"
+            android:hint="Masukkan alamat email anda"
             android:padding="10dp" />
 
         <TextView
@@ -61,12 +61,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             style="@style/TextView.PoppinsNormal16sp020202"
-            android:text="Password" />
+            android:text="Kata Sandi" />
 
         <EditText
             android:inputType="textPassword"
             style="@style/EditText.PoppinsNormal14sp020202"
-            android:hint="Type your password"
+            android:hint="Masukkan kata sandi anda"
             android:background="@drawable/rectangle_6"
             android:layout_marginTop="6dp"
             android:padding="10dp"
@@ -80,7 +80,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
-            android:text="Continue"
+            android:text="Selanjutnya"
             android:textAllCaps="false" />
 
 

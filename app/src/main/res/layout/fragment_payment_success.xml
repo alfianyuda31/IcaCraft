@@ -17,7 +17,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="You've Made Order"
+        android:text="Anda Telah Membuat Pesanan"
         android:layout_marginTop="30dp"
         style="@style/TextView.PoppinsNormal20sp020202"/>
 
@@ -25,14 +25,14 @@
         android:id="@+id/tvSubtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your order is being prepared,\n just stay at home!"
+        android:text="Pesanan anda sedang disiapkan,\n silahkan tunggu di rumah!"
         android:textAlignment="center"
         android:layout_marginTop="6dp"
         style="@style/TextView.PoppinsNormal14sp8D92A3"/>
     
     <Button
         android:id="@+id/btnOtherCraft"
-        android:text="Order Other Craft"
+        android:text="Beli Kerajinan Lain"
         android:layout_marginTop="30dp"
         android:textAllCaps="false"
         android:layout_width="200dp"
@@ -41,7 +41,7 @@
 
     <Button
         android:id="@+id/btnMyOrder"
-        android:text="View My Order"
+        android:text="Lihat Pesanan Saya"
         android:layout_marginTop="12dp"
         android:layout_marginBottom="12dp"
         android:textAllCaps="false"

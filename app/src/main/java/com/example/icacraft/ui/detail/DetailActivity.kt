@@ -14,8 +14,8 @@ class DetailActivity : AppCompatActivity() {
 
     fun toolbarPayment(){
         toolbar.visibility = View.VISIBLE
-        toolbar.title       = "Payment"
-        toolbar.subtitle    = "24 Hours Payment"
+        toolbar.title       = "Pembayaran"
+        toolbar.subtitle    = "Pembayaran 24 jam"
         toolbar.navigationIcon = resources.getDrawable(R.drawable.arrow_back_ios_24px_outlined, null)
         toolbar.setNavigationOnClickListener { onBackPressed() }
     }

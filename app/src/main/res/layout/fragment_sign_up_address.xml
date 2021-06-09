@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/TextView.PoppinsNormal16sp020202"
-            android:text="City" />
+            android:text="Kota" />
 
         <EditText
             style="@style/EditText.PoppinsNormal14sp020202"
@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/rectangle_6"
             android:layout_marginTop="6dp"
-            android:hint="Type your city"
+            android:hint="Masukkan kota anda"
             android:padding="10dp" />
 
         <TextView
@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/TextView.PoppinsNormal16sp020202"
-            android:text="Address" />
+            android:text="Alamat" />
 
         <EditText
             style="@style/EditText.PoppinsNormal14sp020202"
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/rectangle_6"
             android:layout_marginTop="6dp"
-            android:hint="Type your address"
+            android:hint="Masukkan alamat anda"
             android:padding="10dp" />
 
         <TextView
@@ -53,11 +53,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             style="@style/TextView.PoppinsNormal16sp020202"
-            android:text="Post Code" />
+            android:text="Kode Pos" />
 
         <EditText
             style="@style/EditText.PoppinsNormal14sp020202"
-            android:hint="Type your post code"
+            android:hint="Masukkan kode pos anda"
             android:background="@drawable/rectangle_6"
             android:layout_marginTop="6dp"
             android:padding="10dp"
@@ -69,11 +69,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             style="@style/TextView.PoppinsNormal16sp020202"
-            android:text="Phone" />
+            android:text="Nomer Handphone" />
 
         <EditText
             style="@style/EditText.PoppinsNormal14sp020202"
-            android:hint="Type your phone number"
+            android:hint="Masukkan nomer handphone anda"
             android:background="@drawable/rectangle_6"
             android:layout_marginTop="6dp"
             android:padding="10dp"
@@ -86,7 +86,7 @@
             android:textAllCaps="false"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
-            android:text="Sign Up Now"
+            android:text="Daftar Sekarang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 

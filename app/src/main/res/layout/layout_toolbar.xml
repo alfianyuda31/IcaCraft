@@ -23,8 +23,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        app:subtitle="find your best craft"
+        app:subtitle="Temukan kerajinan terbaik anda"
         app:subtitleTextAppearance="@style/TextView.PoppinsNormal14sp8D92A3"
-        app:title="Sign In"
+        app:title="Masuk"
         app:titleTextAppearance="@style/TextView.PoppinsNormal22sp020202" />
 </androidx.constraintlayout.widget.ConstraintLayout>

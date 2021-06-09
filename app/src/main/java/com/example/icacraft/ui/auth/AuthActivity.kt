@@ -28,15 +28,15 @@ class AuthActivity : AppCompatActivity() {
     }
 
     fun toolbarSignUp(){
-        toolbar.title = "Sign Up"
-        toolbar.subtitle = "Register your profile"
+        toolbar.title = "Daftar"
+        toolbar.subtitle = "Daftarkan profil anda"
         toolbar.navigationIcon = resources.getDrawable(R.drawable.arrow_back_ios_24px_outlined, null)
         toolbar.setOnClickListener { onBackPressed() }
     }
 
     fun toolbarSignUpAddress(){
-        toolbar.title = "Sign Up"
-        toolbar.subtitle = "Make sure it's valid"
+        toolbar.title = "Daftar"
+        toolbar.subtitle = "Pastikan semua data benar"
         toolbar.navigationIcon = resources.getDrawable(R.drawable.arrow_back_ios_24px_outlined, null)
         toolbar.setOnClickListener { onBackPressed() }
     }

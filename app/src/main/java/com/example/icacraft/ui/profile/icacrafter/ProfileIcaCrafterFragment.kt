@@ -40,10 +40,10 @@ class ProfileIcaCrafterFragment : Fragment(), ProfileMenuAdapter.ItemAdapterCall
 
     fun initDataDummy(){
         menuArrayList = ArrayList()
-        menuArrayList.add(ProfileMenuModel("Rate App"))
-        menuArrayList.add(ProfileMenuModel("Help Center"))
-        menuArrayList.add(ProfileMenuModel("Privacy & Policy"))
-        menuArrayList.add(ProfileMenuModel("Terms & Conditions"))
+        menuArrayList.add(ProfileMenuModel("Nilai Aplikasi"))
+        menuArrayList.add(ProfileMenuModel("Pusat Bantuan"))
+        menuArrayList.add(ProfileMenuModel("Kebijakan & Privasi"))
+        menuArrayList.add(ProfileMenuModel("Syarat & Ketentuan"))
     }
 
     override fun onClick(v: View, data: ProfileMenuModel) {

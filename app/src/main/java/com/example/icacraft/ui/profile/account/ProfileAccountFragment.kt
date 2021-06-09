@@ -39,10 +39,10 @@ class ProfileAccountFragment : Fragment(), ProfileMenuAdapter.ItemAdapterCallbac
 
     fun initDataDummy(){
         menuArrayList = ArrayList()
-        menuArrayList.add(ProfileMenuModel("Edit Profile"))
-        menuArrayList.add(ProfileMenuModel("Home Address"))
-        menuArrayList.add(ProfileMenuModel("Security"))
-        menuArrayList.add(ProfileMenuModel("Payments"))
+        menuArrayList.add(ProfileMenuModel("Ubah Profil"))
+        menuArrayList.add(ProfileMenuModel("Alamat Rumah"))
+        menuArrayList.add(ProfileMenuModel("Keamanan"))
+        menuArrayList.add(ProfileMenuModel("Pembayaran"))
     }
 
     override fun onClick(v: View, data: ProfileMenuModel) {

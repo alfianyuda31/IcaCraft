@@ -12,7 +12,7 @@ class SectionPagerAdapter(fm:FragmentManager) : FragmentPagerAdapter(fm){
 
     override fun getPageTitle(position: Int): CharSequence? {
         return when(position) {
-            0 -> "Account"
+            0 -> "Akun"
             1 -> "Ica Crafter"
             else -> ""
         }
